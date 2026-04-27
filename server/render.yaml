@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: yourride-api
+    runtime: node
+    region: singapore  # Closest to Australia, or use oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000  # Render assigns this automatically
+      - key: CLIENT_URL
+        value: https://yourride.netlify.app  # Your Netlify frontend URL (update this!)
+      - key: STRIPE_SECRET_KEY
+        sync: false  # Set this in Render dashboard
+      - key: STRIPE_PUBLISHABLE_KEY
+        sync: false  # Set this in Render dashboard
+      - key: EMAIL_USER
+        sync: false  # Set this in Render dashboard
+      - key: EMAIL_PASS
+        sync: false  # Set this in Render dashboard
