@@ -1,10 +1,10 @@
-# RazaDrives - Premium Private Driver Service
+# YourRide - Premium Private Driver Service
 
 A complete, production-ready driving services website for Muhammad Raza Kapasi, a professional private driver based in Melbourne, Australia.
 
 ## 🚗 Project Overview
 
-**RazaDrives** is a dark luxury automotive-themed website featuring:
+**YourRide** is a dark luxury automotive-themed website featuring:
 - Premium chauffeur service branding
 - Online booking system with Stripe payment integration
 - Responsive design optimized for all devices
